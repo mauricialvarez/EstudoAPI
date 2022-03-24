@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FilmesAPI.Data.DTOs
+namespace FilmesAPI.Data.DTOs.FilmeDTO
 {
     public class ReadFilmeDTO
     {

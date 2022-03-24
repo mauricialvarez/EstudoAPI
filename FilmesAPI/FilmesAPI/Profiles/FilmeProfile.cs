@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using FilmesAPI.Data.DTOs;
+using FilmesAPI.Data.DTOs.FilmeDTO;
 using FilmesAPI.Models;
 using System;
 using System.Collections.Generic;
