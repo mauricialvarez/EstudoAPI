@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FilmesAPI.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -14,5 +15,7 @@ namespace FilmesAPI.Data.DTOs.GerenteDTO
 
         [Required]
         public string Nome { get; set; }
+
+        public object Cinemas { get; set; }
     }
 }

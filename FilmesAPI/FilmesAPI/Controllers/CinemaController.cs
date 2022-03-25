@@ -34,7 +34,7 @@ namespace FilmesAPI.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Cinema> RecuperaCinemas([FromQuery] string nomeDoFilme)
+        public IEnumerable<Cinema> RecuperaCinemas()
         {
             return _context.Cinemas;
         }
@@ -62,11 +62,6 @@ namespace FilmesAPI.Controllers
             _mapper.Map(cinemaDto, cinema);
             _context.SaveChanges();
             return NoContent();
-        }
-
-        private IActionResult NoContent()
-        {
-            throw new NotImplementedException();
         }
 
         [HttpDelete("{id}")]
